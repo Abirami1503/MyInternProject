@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
 
-driver = webdriver.Chrome(r"C:\Users\Mahesh Sawant\Desktop\Web Scraping\Project\chromedriver_win32\chromedriver.exe") #Set the path to chromedriver
+driver = webdriver.Chrome(r"C:\Users\M L ABIRAMI\Desktop\Web Scraping\Project\chromedriver_win32\chromedriver.exe") #Set the path to chromedriver
 
 products=[] #List to store name of the product
 prices=[] #List to store price of the product
